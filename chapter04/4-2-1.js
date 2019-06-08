@@ -27,3 +27,13 @@ ctx.lineTo(400, 100);
 ctx.closePath();
 // 描画する
 ctx.stroke();
+
+// さらに別の図形を作る
+ctx.beginPath();
+ctx.fillStyle = "#ffff00";
+// canvas内のどの辺に描きますかってことらしい
+ctx.moveTo(500, 100);
+ctx.lineTo(550, 50);
+ctx.lineTo(600, 100);
+// fillだと線を描くんじゃなくて塗りつぶしてねってなる
+ctx.fill();
