@@ -1,3 +1,5 @@
+const button = document.getElementById("calc");
+
 function calcBMI() {
   // 本ではvarになっているが、再代入が必要でなければconstが推奨されるので変更する
   const inputWeight = document.getElementById("weight");
@@ -11,3 +13,5 @@ function calcBMI() {
     "result"
   ).textContent = `あなたのBMIは${bmiResult}です。`;
 }
+
+button.addEventListener("click", calcBMI);

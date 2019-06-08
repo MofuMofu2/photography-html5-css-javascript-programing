@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <script type="text/javascript src=1-4-1.js"></script>
+    <script src="1-4-1.js"></script>
     <link rel="stylesheet" href="1-4-1.css" />
   </head>
   <body>
@@ -9,10 +9,10 @@
     <div id="calc-bmi">
       <label>体重（kg）<input type="text" id="weight"/></label>
       <label>身長（m）<input type="text" id="height"/></label>
-      <div id="button">
-        <button name="calc">計算</button>
+      <button id="calc">計算</button>
+      <div id="result-area">
+        <p id="result"></p>
       </div>
-      <p id="result"></p>
     </div>
   </body>
 </html>
