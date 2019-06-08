@@ -8,12 +8,9 @@ ctx.strokeStyle = "#ff0000";
 ctx.fillStyle = "#00ff00";
 ctx.lineWidth = 5;
 
-// 線を引く
+// 線を引くという宣言
 ctx.beginPath();
 ctx.moveTo(100, 100);
-ctx.lineTo(300, 150);
+ctx.lineTo(150, 50);
+ctx.lineTo(200, 100);
 ctx.stroke();
-
-// 四角を描く
-ctx.fillRect(100, 200, 200, 100);
-ctx.strokeRect(100, 200, 200, 100);
